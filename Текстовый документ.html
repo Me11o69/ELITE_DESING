@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт о дизайне</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6; /* Добавлено увеличение межстрочного интервала */
+        }
+        header {
+            background-color: #640CAB;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #430773; /* Добавлено украшение под заголовком */
+        }
+        nav {
+            background-color: #9240D5;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            font-size: 18px; /* Увеличение размера шрифта */
+        }
+        nav a:hover {
+            color: #f0f0f0;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #fff;
+            font-size: 36px; /* Увеличение размера заголовка */
+            text-transform: uppercase; /* Преобразование текста заголовка в верхний регистр */
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #640CAB;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 0px 0; /* Добавлено пространство между текстом и нижним краем футера */
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .designer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .designer img {
+            width: 350px;
+            height: 350px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+            border: 3px solid #640CAB;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ELITE DESIGN</h1>
+    </header>
+    <nav>
+        <a href="#designer">Дизайнер</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#orders">Заказы</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <section id="designer">
+        <h2>Дизайнер</h2>
+        <div class="designer">
+            <img src="designer_photo.jpg" alt="Фото дизайнера">
+            <p>Городилов Михаил Александрович</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Я начинающий дизайнер, специализирующийся на создании креативных и инновационных решений.</p>
+    </section>
+    <section id="services">
+        <h2>Услуги</h2>
+        <ul>
+            <li>Веб-дизайн</li>
+            <li>Графический дизайн</li>
+            <li>Логотипы и брендинг</li>
+            <li>Обработка фото</li>
+        </ul>
+    </section>
+    <section id="portfolio">
+        <h2>Портфолио</h2>
+        <div class="gallery">
+            <img src="example1.jpg" alt="Пример работы 1">
+            <img src="example2.jpg" alt="Пример работы 2">
+            <img src="example3.jpg" alt="Пример работы 3">
+            <img src="example4.jpg" alt="Пример работы 4">
+            <img src="example5.jpg" alt="Пример работы 5">
+            <img src="example6.jpg" alt="Пример работы 6">
+        </div>
+    </section>
+    <section id="orders">
+        <h2>Заказы</h2>
+        <p>Здесь вы можете оформить заказ на услуги дизайна.</p>
+        <p>Для заказа свяжитесь с нами по электронной почте или телефону, указанным в разделе "Контакты".</p>
+    </section>
+    <section id="contact">
+        <h2>Контакты♥</h2>
+        <p>Свяжитесь со мной для заказа или получения дополнительной информации.</p>
+        <p>Email: gorodilovm60@gmail.com</p>
+        <p>Телефон: +7 982 696 74 40</p>
+    </section>
+    <footer>
+        <p>ELITE DESIGN &copy; 2024</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.gallery').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '60px',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
